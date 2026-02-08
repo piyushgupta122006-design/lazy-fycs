@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import "tailwindcss";
+
+.font-hand {
+  font-family: 'Patrick Hand', cursive;
+}
+
+.paper {
+  line-height: 2rem;
+  background-image: linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent calc(2rem - 1px),
+    #90caf9 calc(2rem - 1px),
+    #90caf9 2rem
+  );
+  background-size: 100% 2rem;
+}
