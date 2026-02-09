@@ -25,8 +25,7 @@ PLAIN TEXT ONLY (strictly enforce):
 4. For Bullet points, use a simple dash (-) with a space.
 5. Make the output look exactly like raw text written in a notebook.`;
 
-const apiKey = "AIzaSyBenTGQ77TpVXUsg0bar2hLu4aS1GAu43g";
-const genAI = new GoogleGenerativeAI(apiKey);
+const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_API_KEY);
 
 /**
  * Starts a Google Gemini chat session for assignment generation.
